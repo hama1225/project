@@ -1,4 +1,4 @@
-package com.vod.movit.board.controller;
+package com.vod.movit.movie.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */   
 
 @Controller
-public class HomeController {
+public class MovieController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	private static final Logger logger = LoggerFactory.getLogger(MovieController.class);
 	
 	/**
 	 * Simply selects the home view to render by returning its name.
