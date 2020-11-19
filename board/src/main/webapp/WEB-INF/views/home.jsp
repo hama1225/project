@@ -11,6 +11,8 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
-안녕
+
+<p><a href="/board/list">게시물 목록</a></p>
+
 </body>
 </html>

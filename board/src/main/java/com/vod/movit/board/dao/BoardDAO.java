@@ -1,5 +1,11 @@
 package com.vod.movit.board.dao;
 
-public interface BoardDAO {
+import java.util.List;
 
+import com.vod.movit.board.vo.BoardVO;
+
+public interface BoardDAO {
+	
+	List<BoardVO> select() throws Exception;
+	
 }
